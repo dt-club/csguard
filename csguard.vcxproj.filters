@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="detours">
+      <UniqueIdentifier>{639d33e4-f775-41e6-9294-c9ad20670bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\cstrike">
+      <UniqueIdentifier>{f2f01a02-00e1-49c1-be3f-864a44f1e1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\cstrike\resource">
+      <UniqueIdentifier>{f295e556-5017-4558-be50-43a2d08ed569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\valve">
+      <UniqueIdentifier>{ce5df41c-ae97-4201-9e84-6d12e6de332b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\valve\resource">
+      <UniqueIdentifier>{dcfab2b9-b548-4e96-885c-6bc405d20e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\valve\hw">
+      <UniqueIdentifier>{aacd8777-85a6-412f-aec0-e1e2023a7f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\platform">
+      <UniqueIdentifier>{269869ec-514b-42be-8689-7984562b77bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\platform\config">
+      <UniqueIdentifier>{6ea0955e-afb5-4882-aed5-e50a4d947449}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="detours\creatwth.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detours.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disasm.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolx86.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\image.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\modules.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\uimports.cpp">
+      <Filter>detours</Filter>
+    </ClCompile>
+    <ClCompile Include="moufix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fileprotect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="resourcefix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detours\detours.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detver.h">
+      <Filter>detours</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="csguard.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="valve\language.cfg">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\violence.cfg">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\autoexec.cfg">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\default.cfg">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\valve.rc">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\valvecomm.lst">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\steamcomm.lst">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\server.cfg">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\listenserver.cfg">
+      <Filter>资源文件\valve</Filter>
+    </None>
+    <None Include="valve\resource\LoadingDialogVAC.res">
+      <Filter>资源文件\valve\resource</Filter>
+    </None>
+    <None Include="valve\resource\LoadingDialogNoBannerSingle.res">
+      <Filter>资源文件\valve\resource</Filter>
+    </None>
+    <None Include="valve\resource\LoadingDialogNoBanner.res">
+      <Filter>资源文件\valve\resource</Filter>
+    </None>
+    <None Include="valve\resource\LoadingDialog.res">
+      <Filter>资源文件\valve\resource</Filter>
+    </None>
+    <None Include="valve\resource\GameMenu.res">
+      <Filter>资源文件\valve\resource</Filter>
+    </None>
+    <None Include="cstrike\resource\GameMenu.res">
+      <Filter>资源文件\cstrike\resource</Filter>
+    </None>
+    <None Include="cstrike\server.cfg">
+      <Filter>资源文件\cstrike</Filter>
+    </None>
+    <None Include="cstrike\listenserver.cfg">
+      <Filter>资源文件\cstrike</Filter>
+    </None>
+    <None Include="valve\hw\ATIRage128.cfg">
+      <Filter>资源文件\valve\hw</Filter>
+    </None>
+    <None Include="valve\hw\ATIRage128d3d.cfg">
+      <Filter>资源文件\valve\hw</Filter>
+    </None>
+    <None Include="valve\hw\d3d.cfg">
+      <Filter>资源文件\valve\hw</Filter>
+    </None>
+    <None Include="valve\hw\geforce.cfg">
+      <Filter>资源文件\valve\hw</Filter>
+    </None>
+    <None Include="valve\hw\nvidiad3d.cfg">
+      <Filter>资源文件\valve\hw</Filter>
+    </None>
+    <None Include="platform\config\MasterServers.vdf">
+      <Filter>资源文件\platform\config</Filter>
+    </None>
+  </ItemGroup>
+</Project>
